@@ -12,7 +12,7 @@ def substrings string, array
 		times = 0
 		
 	end
-	puts results
+
 	return results
 	
 
@@ -24,5 +24,5 @@ end
 
 
  dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
- substrings("below", dictionary)
- substrings("Howdy partner, sit down! How's it going?", dictionary)
+puts substrings("below", dictionary)
+puts substrings("Howdy partner, sit down! How's it going?", dictionary)
